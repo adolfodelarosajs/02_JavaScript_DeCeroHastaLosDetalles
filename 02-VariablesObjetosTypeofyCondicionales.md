@@ -60,15 +60,16 @@ Un objeto puede contener más objetos:
 
 ```
 var obj = {
-	numero: 10,
-	texto: "Hola",
-	objHijo: {
-		numero: 20,
-		texto: "Hi"
-	}
+  numero: 10,
+  texto: "Hola",
+  objHijo: {
+    numero: 20,
+    texto: "Hi"
+  }
 }
 
 console.log( obj ); //{numero: 10, texto: "Hola", objHijo: {…}}
+console.log( objHijo );
 
 //output
 numero: 10
