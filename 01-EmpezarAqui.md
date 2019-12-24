@@ -119,7 +119,7 @@ Las variables se seguirán visualizando en el objeto **window**
 
 ### Uso de la consola
 
-Si abrimos la consola y escribimos los nombres de nuestras variables, en la consola se mostraran sus respectivos valores:
+Si abrimos la consola y escribimos los nombres de nuestras variables, en la consola se mostrarán sus respectivos valores:
 
 ```
 a
@@ -141,7 +141,7 @@ b = "María";
 
 ### Impresión en la consola
 
-Existen situaciones en las que mientras se esta ejecutando nuestro programa necesitamos saber el valor de alguna variable, una forma es usando la instrucción `alert( a );`, la cual nos mostraría en una ventana emergente el valor, el problema de esto es que detiene la ejecución de nuestro programa hasta aceptar.
+Existen situaciones en las que mientras se está ejecutando nuestro programa necesitamos saber el valor de alguna variable, una forma es usando la instrucción `alert( a );`, la cual nos mostraría en una ventana emergente el valor, el problema de esto es que detiene la ejecución de nuestro programa hasta aceptar.
 
 La forma más profesional de hacerlo es usar la instrucción `console`. Existen varias formas de mostrar los resultados en la consola:
 
@@ -185,7 +185,7 @@ En la consola se muestra:
 
 `undefined`
 
-Pero la ejecución del programa no se ha detenido a continuado, no existe ningun error, como podemos ver si imprimimos el valor despues de inicializarlo:
+Pero la ejecución del programa no se ha detenido a continuado, no existe ningún error, como podemos ver si imprimimos el valor después de inicializarlo:
 
 ```
 console.log( a );
@@ -196,7 +196,7 @@ undefined
 Adolfo
 ```
 
-Por lo que podemos concluir que si se usa una variable sin ser declarada e inicializada tendra un valor `undefined`
+Por lo que podemos concluir que si se usa una variable sin ser declarada e inicializada tendrá un valor `undefined`
 
 **Nota** El valor `undefined` no es lo mismo que `null`.
 
