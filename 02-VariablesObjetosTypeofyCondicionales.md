@@ -27,7 +27,7 @@ var und = undefined;
 var nul = null;
 ```
 
-La **escritura dinámica** se refiere que apesar de que una variable se inicializo con un valor de un tipo, puede almacenar el valor de otro tipo y no nos provocara error:
+La **escritura dinámica** se refiere que a pesar de que una variable se inicializo con un valor de un tipo, puede almacenar el valor de otro tipo y no nos provocara error:
 
 ```
 num = str;
@@ -125,7 +125,7 @@ c: {nombre: "Gina"}
 d: {nombre: "Gina"}
 ```
 
-Nótese que se está haciendo algo similar a lo que se hizo con los datos primitivos sin embargo, aquí cuando se cambia una propiedad en un objeto también se cambia el otro objeto. Esto es porque al haber asignado un objeto al otro esto se hace por referencia es decir los dos objetos apuntan al mismo lugar y si existe un cambio en los datos ambos objetos observaran dichos cambios por que apuntan al mismo sitio.
+Nótese que se está haciendo algo similar a lo que se hizo con los datos primitivos, sin embargo, aquí cuando se cambia una propiedad en un objeto también se cambia el otro objeto. Esto es porque al haber asignado un objeto al otro esto se hace por referencia es decir los dos objetos apuntan al mismo lugar y si existe un cambio en los datos ambos objetos observaran dichos cambios por que apuntan al mismo sitio.
 
 ## Notación de Punto y Corchetes
 
@@ -243,7 +243,7 @@ Messi
 España
 ```
 
-El verdadero potencial de la **notación de corchetes** es que podemos recuperar valores dinámicamente ya que en los corchetes podríamos colocar el valor de una variable que represente el valor de un campo, por ejemplo:
+El verdadero potencial de la **notación de corchetes** es que podemos recuperar valores dinámicamente ya que, en los corchetes podríamos colocar el valor de una variable que represente el valor de un campo, por ejemplo:
 
 ```
 var nom = "nombre";
@@ -332,11 +332,11 @@ primeraFuncion();
 var a=40;
 ```
 
-Aquí el resultado que nos devuelve es el de `undefined` ya que si se ha declarado la variable, pero en el momento de su uso no tenía aún valor.
+Aquí el resultado que nos devuelve es el de `undefined` ya que, si se ha declarado la variable, pero en el momento de su uso no tenía aún valor.
 
-Esta última forma de declarar una variable no es muy recomendable pero JS lo permite y no existe error, solo que puede provocar errores lógicos o situaciones inesperadas.
+Esta última forma de declarar una variable no es muy recomendable, pero JS lo permite y no existe error, solo que puede provocar errores lógicos o situaciones inesperadas.
 
-En JS podremos invocar a funciones aunque su definición este en una ubicación posterior:
+En JS podremos invocar a funciones, aunque su definición este en una ubicación posterior:
 
 ```
 var a = 40;
@@ -1423,7 +1423,7 @@ Aunque la propiedad se encuentre en la sección *proto* yo la puedo seguir invoc
 
 Aquí el uso de los prototipos no tiene mucho sentido para añadir propiedades ya que las podemos añadir desde la definición, la verdadera utilidad de los prototipos esta al definir los métodos.
 
-En el ejemplo anterior al instanciar el objeto Persona siempre creara 3 propiedades y un método, si tenemos 1000 instancias tendremos 1000 datos de personas diferentes pero 1000 el mismo método repetido para cada uno de ellos y esto puede provocar un uso inadecuado de memoria entre otras cosas.
+En el ejemplo anterior al instanciar el objeto Persona siempre creara 3 propiedades y un método, si tenemos 1000 instancias tendremos 1000 datos de personas diferentes, pero 1000 el mismo método repetido para cada uno de ellos y esto puede provocar un uso inadecuado de memoria entre otras cosas.
 
 Si nosotros colocamos el método en el prototipo tendremos 1000 datos de personas diferentes, pero solamente una vez la definición del método, veamos el siguiente ejemplo:
 
@@ -1497,7 +1497,7 @@ Como ya se mencionó no es muy recomendable usar prototipos para los tipos de da
 
 ## Funciones Anónimas
 
-Ayudan a mantener el código encapsulado, permitiendo que otras secciones del codigo cambien accidentalmente valores de propiedades generalmente dedinidas en el objeto global window.
+Ayudan a mantener el código encapsulado, permitiendo que otras secciones del código cambien accidentalmente valores de propiedades generalmente definidas en el objeto global window.
 
 Véase el siguiente código.
 
@@ -1546,7 +1546,7 @@ Veamos el siguiente código.
 
 De esta manera se define una función anónima, nótese que no tienen ningún nombre y la forma de invocarla es con **()**.
 
-El resultado obtenido es el mismo que con la función definida, pero existe **una gran diferencia**, que en el objeto global no tenemos definida la variable `a` y en caso que otro proceso la definiera, nuestra función anónima haría referencia a la variable dentro de su contexto, evitando cambiar accidentalmente el valor de una variable global.
+El resultado obtenido es el mismo que con la función definida, pero existe **una gran diferencia**, que en el objeto global no tenemos definida la variable `a` y en caso de que otro proceso la definiera, nuestra función anónima haría referencia a la variable dentro de su contexto, evitando cambiar accidentalmente el valor de una variable global.
 
 Otro uso de las funciones anónimas puede ser cuando pasamos como parámetro una función a otra función, podemos armar la función dentro de los paréntesis de los parámetros. Veamos el siguiente ejemplo:
 
