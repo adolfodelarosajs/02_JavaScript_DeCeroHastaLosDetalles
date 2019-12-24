@@ -32,6 +32,9 @@ Vamos a crear el archivo **index.html**
   <title>JavaScript</title>
 </head>
 <body>
+  <h1>Mi primer código de JavaScript</h1>
+  <p>Abrir las herramientas de desarrollar con F12</p>
+  <p>Escribir <b>window</b> en la consola</p>
   <script type="text/Javascript"></script>
 </body>
 </html>
@@ -55,10 +58,13 @@ Si modificamos nuestro archivo **index.html** para meter código dentro de la se
   <title>JavaScript</title>
 </head>
 <body>
+  <h1>Mi primer código de JavaScript</h1>
+  <p>Abrir las herramientas de desarrollar con F12</p>
+  <p>Escribir <b>window</b> en la consola</p>
   <script type="text/Javascript">
-	var a = 1;
-	var b = "Adolfo";
-  </script>	
+    var a = 1;
+    var b = "Adolfo";
+  </script>
 </body>
 </html>
 ```
@@ -102,7 +108,7 @@ Ya vimos donde podemos colocar el código JS dentro del archivo **index.html**, 
   <meta charset="UTF-8">
   <title>JavaScript</title>
 </head>
-<body>	
+<body>
   <script src="app.js"></script>
 </body>
 </html>
@@ -250,7 +256,7 @@ function presionoClick(){
 imprimir();
 ```
 
-La prueba consiste en ejecutar el programa y mientras se ejecuta el ciclo de 10000 repeticiones pulsar en el botón, si JS fuera asíncrono mientras ejecuta el ciclo también ejecutaría la función **presionoClick**,  si espera a terminar el ciclo y después ejecuta la función **presionoClick** demostraremos que es síncrono.
+La prueba consiste en ejecutar el programa y mientras se ejecuta el ciclo de 10000 repeticiones pulsar en el botón, si JS fuera asíncrono mientras ejecuta el ciclo también ejecutaría la función **presionoClick**, si espera a terminar el ciclo y después ejecuta la función **presionoClick** demostraremos que es síncrono.
 
 
 ```
