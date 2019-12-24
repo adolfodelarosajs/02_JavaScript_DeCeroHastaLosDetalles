@@ -77,7 +77,7 @@ objHijo: {numero: 20, texto: "Hi"}
 texto: "Hola"
 ```
 
-## Por valor y por Referencia
+## Por Valor y por Referencia
 
 Las **variables primitivas** siempre **se pasan por valor**. Cada variable tiene su espacio reservado en memoria y aun que se igualen dos variables cada una hace referencia a su localidad de memoria como podemos ver en el siguiente ejemplo:
 
@@ -143,7 +143,7 @@ var persona = {
   edad : 30,
   direccion : {
     ciudad: "Barcelona",
-	pais: "España"
+      pais: "España"
   }
 };
 
@@ -191,10 +191,10 @@ var persona = {
   edad : 30,
   direccion : {
     ciudad: "Barcelona",
-	pais: "España"
-	edificio: {
-	  nombre: "Edificio Principal",
-	  telefono: "999-88-77-66"
+    pais: "España"
+    edificio: {
+      nombre: "Edificio Principal",
+      telefono: "999-88-77-66"
     }
   }
 };
@@ -224,10 +224,10 @@ var persona = {
   edad : 30,
   direccion : {
     ciudad: "Barcelona",
-	pais: "España"
-	edificio: {
-	  nombre: "Edificio Principal",
-	  telefono: "999-88-77-66"
+    pais: "España"
+    edificio: {
+       nombre: "Edificio Principal",
+       telefono: "999-88-77-66"
     }
   }
 };
