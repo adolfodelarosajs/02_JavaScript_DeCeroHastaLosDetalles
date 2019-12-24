@@ -329,3 +329,6 @@ El resultado que obtenemos es:
 ¿Por qué pasa esto?
 
 Lo que sucede es que después de crear el **objeto global window** recorre el archivo **index.html** y se encuentra con el archivo **app2.js** el cual empieza a recorrer y se encuentra con la instrucción `console.log(nombre);` la cual hace referencia a la variable **nombre** que no se ha definido en el objeto global. Aquí no hace un barrido global de todo.
+
+Esto es diferente de lo que teníamos en `Undefined` ya que allí si definíamos la variable `a` pero después de usarla, aquí solo la usamos pero aún no está definida por que está en otro archivo diferente que aún no se ha barrido.
+
