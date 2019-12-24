@@ -214,7 +214,7 @@ JavaScript NO es Asíncrono
 
 El adjetivo **asincrónico** califica a aquello que **no posee sincronía**. Este término **sincronía**, por su parte, alude a lo que **coincide en el tiempo**.
 
-Se denomina comunicación asincrónica al proceso comunicativo que se lleva a cabo sin coincidencia temporal. Esto quiere decir que la emisión y la recepción de los mensajes están separadas por un cierto periodo de tiempo.
+**Se denomina comunicación asincrónica al proceso comunicativo que se lleva a cabo sin coincidencia temporal. Esto quiere decir que la emisión y la recepción de los mensajes están separadas por un cierto periodo de tiempo**.
 
 Vamos a tratar de demostrarlo, haciendo un programa que se ejecute 10000 veces y mientras se ejecuta, llamar otra función, para que caiga en la pila de funciones que tiene que ejecutar JS, si JS fuera de verdad asíncrono podría ejecutar las dos funciones simultáneamente.
 
