@@ -178,7 +178,7 @@ arreglo.splice(1,1,"10");
 console.log(arreglo);
 
 //output
-["0", "10", "2", "3", "4", "5"]
+["0", "10"]
 ```
 
 Pero podríamos insertar varios elementos a la vez:
@@ -188,7 +188,7 @@ arreglo.splice(1,1,"10", "20", "30");
 console.log(arreglo);
 
 //output
-["0", "10", "20", "30", "2", "3", "4", "5"]
+["0", "10", "20", "30"]
 ```
 
 También podríamos no eliminar nada y solo insertar nuevos elementos a partir de una posición:
@@ -198,7 +198,7 @@ arreglo.splice(1,0,"10", "20", "30");
 console.log(arreglo);
 
 //output
-["0", "10", "20", "30", "1", "2", "3", "4", "5"]
+["0", "10", "20", "30", "10", "20", "30"]
 ```
 
 #### slice()
