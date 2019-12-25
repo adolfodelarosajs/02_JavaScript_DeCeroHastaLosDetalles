@@ -377,7 +377,7 @@ Como podemos apreciar mandamos 2 argumentos y en **arguments** se almacena un ar
 
 Pero recuerde que JS nos permite mandar más argumentos de los parámetros enumerados en una función o incluso menos ( lo ideal sería igual).
 
-Más argumentos que parámetros:
+Más parámetros que argumentos:
 
 ```
 function miFuncion(a,b){
@@ -394,7 +394,7 @@ miFuncion(1, 2, 3);
 3
 ```
 
-Más parámetros que argumentos:
+Más argumentos que parámetros:
 
 ```
 function miFuncion(a,b){
