@@ -168,7 +168,7 @@ arreglo.splice(1,3);
 console.log(arreglo);
 
 //output
-["0", "4", "5"]
+["0", "5"]
 ```
 
 Además de eliminar elementos al mismo tiempo podemos insertarlos (lo que parecería un remplazo):
