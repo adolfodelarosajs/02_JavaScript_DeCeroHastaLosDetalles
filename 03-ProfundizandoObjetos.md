@@ -977,7 +977,7 @@ Existe otra opción de inicializar la fecha con una fecha fija, para lo cual pod
 
 `var fechaFFija = new Date( anio, mes, dia, hora, min, seg, mili)`
 
-aunque no todos los atributos son necesarios, depende de lo exacto que quieramos la fecha:
+aunque no todos los atributos son necesarios, depende de lo exacto que queramos la fecha:
 
 ```
 var fechaFija = new Date(2019, 08, 05);
