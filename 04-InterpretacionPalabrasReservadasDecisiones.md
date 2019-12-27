@@ -558,14 +558,11 @@ Características:  Rápido Económico
 El método `apply()` invoca a una función pasándole como primer argumento el valor que tomara el  `this` seguido de los demás argumentos que se proporcionan como un array.
 
 ```
+logCarro.apply(carro, ["Rojo", "Deportivo" );
 //output
 Mazda - Blanco
 Mazda - Blanco
-Características:  Rápido Económico
-Carro:  Mazda - Blanco
-Características:  Rápido Económico
-Carro:  Mazda - Blanco
-Características:  Rápido Económico
+Características:  Rojo Deportivo
 ```
 
 Todo esto nos sirve para lo que se conoce como **Funciones Prestadas**, vea el siguiente ejemplo:
@@ -591,6 +588,7 @@ console.log( carro.imprimir.call(carro2));
 //output
 Toyota -Rojo
 ``` 
+Usamos la función definida en un objeto sobre otro objeto que no cuenta con esa función.
 
 ## IF... ELSE....
 
