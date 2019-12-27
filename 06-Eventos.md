@@ -2,7 +2,7 @@
 
 ## Eventos 101
 
-Los eventos son acciones que hacen que se dispare una función. Ver el documento **Eventos.pdf""
+Los eventos son acciones que hacen que se dispare una función. Ver el documento [Eventos](https://github.com/adolfodelarosajs/02_JavaScript_DeCeroHastaLosDetalles/blob/master/Eventos.pdf)
 
 ### onclick() y ondblclick()
 
