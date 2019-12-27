@@ -1232,7 +1232,7 @@ console.log(arreglo2);
 null
 ```
 
-Las expresiones regulares cuaetan con varios caracteres especiales que nos indican diferentes cosas:
+Las expresiones regulares cuentan con varios caracteres especiales que nos indican diferentes cosas:
 
 ### ^
 
