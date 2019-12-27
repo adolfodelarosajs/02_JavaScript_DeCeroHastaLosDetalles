@@ -238,7 +238,7 @@ Si quisiera imprimir los valores del arreglo usaría el método `foreach` de los
 500
 ```
 
-num no toma el valor del elemento del array si no su índice.
+num no toma el valor del índice si no el elemento del array.
 
 ```
 var string1 = "";
