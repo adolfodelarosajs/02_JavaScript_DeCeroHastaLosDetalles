@@ -23,7 +23,7 @@ console.log( arreglo[0], arreglo[4], arreglo[5] );
 5 1 undefined
 ```
 
-El primer elemento es 0 y el último el numero total de elementos - 1, si ponemos un índice fuera del rango nos responde con un `undefined`, en otros lenguajes esto sería un error de desbordamiento.
+El primer elemento es 0 y el último el número total de elementos - 1, si ponemos un índice fuera del rango nos responde con un `undefined`, en otros lenguajes esto sería un error de desbordamiento.
 
 ### Métodos de Arrays
 
@@ -43,7 +43,7 @@ console.log( arreglo );
 
 #### map()
 
-El método map() crea un nuevo array con los resultados de invocar una función que recibe como parámetro cada elemento del array y realiza alguna transformación del mismo.
+El método map() crea un nuevo array con los resultados de invocar una función que recibe como parámetro cada elemento del array y realiza alguna transformación de este.
 
 ```
 arreglo = arreglo.map( function(elemento){
@@ -233,7 +233,7 @@ console.log(arreglo.length);
 
 ## Arreglos - Parte 2
 
-Los arrays pueden contener valores primitivos, objetos, funciones, arrays y todo combinándolo como sea necesario, a continuación vamos a ver un ejemplo de un objeto que contienen todos esos elementos y cómo podemos acceder a sus elementos:
+Los arrays pueden contener valores primitivos, objetos, funciones, arrays y todo combinándolo como sea necesario, a continuación, vamos a ver un ejemplo de un objeto que contienen todos esos elementos y cómo podemos acceder a sus elementos:
 
 ```
 var arreglo = [
@@ -352,7 +352,7 @@ Esto regresa:
 
 `[]`
 
-Esto nos regresa `[]` pero no nos regresa ningún error, a pesar de que no hemos definido la variable *arguments*, inclusive podríamos definir la variable a nivel global `var arguments` y nos seguiría regresando `[]` ya que como hemos visto es una propiedad heredad al crear la función y se encuentra dentro del contexto de la misma.
+Esto nos regresa `[]` pero no nos regresa ningún error, a pesar de que no hemos definido la variable *arguments*, inclusive podríamos definir la variable a nivel global `var arguments` y nos seguiría regresando `[]` ya que como hemos visto es una propiedad heredad al crear la función y se encuentra dentro del contexto de esta.
 
 Un argumento es un valor (primitivo u objeto) pasado como entrada a una función y como en este caso no estamos pasando nada nos regresa *undefined*.
 
@@ -472,7 +472,7 @@ miFuncion(10, 20, 30, 40);
 La suma es: 100
 ```
 
-Si mando más de cuatro argumentos ¿que pasa?:
+Si mando más de cuatro argumentos ¿qué pasa?:
 
 ```
 function miFuncion(a,b,c,d){
@@ -571,9 +571,9 @@ Aquí aprovechamos el uso de una función definida llamándola a partir de otra 
 
 ## Polimorfismo en JavaScript
 
-El concepto de polimorfismo (del griego muchas formas) implica que si en una porción de código se invoca un determinado método de un objeto, podrán obtenerse distintos resultados según la clase del objeto. Esto se debe a que distintos objetos pueden tener un método con un mismo nombre, pero que realice distintas operaciones.
+El concepto de polimorfismo (del griego muchas formas) implica que, si en una porción de código se invoca un determinado método de un objeto, podrán obtenerse distintos resultados según la clase del objeto. Esto se debe a que distintos objetos pueden tener un método con un mismo nombre, pero que realice distintas operaciones.
 
-Esto en JS nuevamente debemos simularlo, vamos a ver el siguiente ejemplo en el cual se llama a un mismo "método" (función) pasándolo diferentes tipos de datos y de acuerdo a su tipo de dato realiza una acción.
+Esto en JS nuevamente debemos simularlo, vamos a ver el siguiente ejemplo en el cual se llama a un mismo "método" (función) pasándolo diferentes tipos de datos y de acuerdo con su tipo de dato realiza una acción.
 
 ```
 function determinarDato( a ){
@@ -685,7 +685,7 @@ Pero no nos engañemos lo que realmente esperábamos recuperar era:
 3
 ``` 
 
-Pero por el contexto no está pasando esto. Que modificaciones deberíamos hacer al código para realmente obtener ese resultado, tendríamos que aislar los contextos y eso lo podemos realizar con un función anónima:
+Pero por el contexto no está pasando esto. Que modificaciones deberíamos hacer al código para realmente obtener ese resultado, tendríamos que aislar los contextos y eso lo podemos realizar con una función anónima:
 
 ```
 //Función que regresa un arreglo de funciones
@@ -1370,7 +1370,7 @@ console.log(arreglo);
 
 i permite ignorar si es mayúscula o minúscula.
 g recupera todas las apariciones
-m busca en múltiples líneas (lo hace aunque no se lo indiquemos)
+m busca en múltiples líneas (lo hace, aunque no se lo indiquemos)
 
 ```
 var texto = "Hola Mundo";
@@ -1517,7 +1517,7 @@ console.log(arreglo);
 (3) ["45", "60", "105"]
 ```
 
-Y si quisieramos recuperar los números de 2 o más cifras:
+Y si quisiéramos recuperar los números de 2 o más cifras:
 
 ```
 var texto = "La respuesta de la suma es: 45 + 60 = 105 y 850 * 1000 = 850000";
