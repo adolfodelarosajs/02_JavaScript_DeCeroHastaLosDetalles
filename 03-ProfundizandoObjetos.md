@@ -1421,6 +1421,8 @@ console.log(arreglo);
 
 ### ?
 
+Busca el carácter precedente 0 ó 1 vez.
+
 ```
 var texto = "Hola Mundoo, ooooh";
 var arreglo = texto.match( /o?/g);
