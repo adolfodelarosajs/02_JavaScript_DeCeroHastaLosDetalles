@@ -701,7 +701,7 @@ Agosto
 3er Cuatrimestre
 ```
 
-##JSON y breve historia
+## JSON y breve historia
 
 Antes de existir JSON los datos se transferían en formato XML, pero muchas veces las etiquetas ocupaban más peso que los datos. La alternativa es JSON que es un formato de dato más condensado, un buen ejemplo seria ver un archivo en XML y otro en JSON.
 
