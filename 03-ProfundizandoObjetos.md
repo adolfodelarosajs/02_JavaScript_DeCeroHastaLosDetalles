@@ -1434,6 +1434,8 @@ console.log(arreglo);
 ```
 
 ### *
+	
+Busca el carácter precedente 0 o más veces.
 
 ```
 var texto = "Hola Mundoo, ooooh";
